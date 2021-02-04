@@ -1,141 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-04T11:35:44Z" name="Default suite" finished-at="2021-02-04T11:36:23Z" duration-ms="39199">
+  <suite started-at="2021-02-04T12:09:15Z" name="Suite" finished-at="2021-02-04T12:10:12Z" duration-ms="57487">
     <groups>
     </groups>
-    <test started-at="2021-02-04T11:35:44Z" name="Default test" finished-at="2021-02-04T11:36:23Z" duration-ms="39199">
-      <class name="com.Automation.Test.Automation1.Test1">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:44Z" name="launchDriver" finished-at="2021-02-04T11:35:45Z" duration-ms="1426" status="PASS">
+    <test started-at="2021-02-04T12:09:15Z" name="Test" finished-at="2021-02-04T12:10:12Z" duration-ms="57487">
+      <class name="com.Automation.Test.Automation1.TestClass1">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.TestClass1@24ba9639]" started-at="2021-02-04T12:09:47Z" name="launchDriver" finished-at="2021-02-04T12:09:48Z" duration-ms="1098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test2()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:45Z" name="Test2" finished-at="2021-02-04T11:35:47Z" duration-ms="2236" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:com.Automation.Test.Automation1.TestClass1@24ba9639]" started-at="2021-02-04T12:09:48Z" name="Test1" finished-at="2021-02-04T12:09:58Z" duration-ms="10196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.TestClass1@24ba9639]" started-at="2021-02-04T12:09:58Z" name="quit" finished-at="2021-02-04T12:09:59Z" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.TestClass1@24ba9639]" started-at="2021-02-04T12:09:59Z" name="launchDriver" finished-at="2021-02-04T12:10:00Z" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="Test2()[pri:0, instance:com.Automation.Test.Automation1.TestClass1@24ba9639]" started-at="2021-02-04T12:10:00Z" name="Test2" finished-at="2021-02-04T12:10:05Z" duration-ms="5247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:47Z" name="quit" finished-at="2021-02-04T11:35:48Z" duration-ms="609" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.TestClass1@24ba9639]" started-at="2021-02-04T12:10:05Z" name="quit" finished-at="2021-02-04T12:10:06Z" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:48Z" name="launchDriver" finished-at="2021-02-04T11:35:49Z" duration-ms="1088" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.TestClass1@24ba9639]" started-at="2021-02-04T12:10:06Z" name="launchDriver" finished-at="2021-02-04T12:10:07Z" duration-ms="1097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test3()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:49Z" name="Test3" finished-at="2021-02-04T11:35:52Z" duration-ms="2354" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:com.Automation.Test.Automation1.TestClass1@24ba9639]" started-at="2021-02-04T12:10:07Z" name="Test3" finished-at="2021-02-04T12:10:12Z" duration-ms="4835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:52Z" name="quit" finished-at="2021-02-04T11:35:52Z" duration-ms="608" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.TestClass1@24ba9639]" started-at="2021-02-04T12:10:12Z" name="quit" finished-at="2021-02-04T12:10:12Z" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:52Z" name="launchDriver" finished-at="2021-02-04T11:35:53Z" duration-ms="1084" status="PASS">
+      </class> <!-- com.Automation.Test.Automation1.TestClass1 -->
+      <class name="com.Automation.Test.Automation1.Test1">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:15Z" name="launchDriver" finished-at="2021-02-04T12:09:16Z" duration-ms="1449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test4()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:53Z" name="Test4" finished-at="2021-02-04T11:35:56Z" duration-ms="2585" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:16Z" name="Test2" finished-at="2021-02-04T12:09:19Z" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:19Z" name="quit" finished-at="2021-02-04T12:09:20Z" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:20Z" name="launchDriver" finished-at="2021-02-04T12:09:21Z" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="Test3()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:21Z" name="Test3" finished-at="2021-02-04T12:09:24Z" duration-ms="2887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:24Z" name="quit" finished-at="2021-02-04T12:09:24Z" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:24Z" name="launchDriver" finished-at="2021-02-04T12:09:25Z" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method signature="Test4()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:25Z" name="Test4" finished-at="2021-02-04T12:09:29Z" duration-ms="3342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test4 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:56Z" name="quit" finished-at="2021-02-04T11:35:56Z" duration-ms="591" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:29Z" name="quit" finished-at="2021-02-04T12:09:29Z" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:56Z" name="launchDriver" finished-at="2021-02-04T11:35:57Z" duration-ms="1089" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:29Z" name="launchDriver" finished-at="2021-02-04T12:09:31Z" duration-ms="1281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test5()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:35:57Z" name="Test5" finished-at="2021-02-04T11:36:00Z" duration-ms="2344" status="PASS">
+        <test-method signature="Test5()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:31Z" name="Test5" finished-at="2021-02-04T12:09:33Z" duration-ms="2718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test5 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:00Z" name="quit" finished-at="2021-02-04T11:36:00Z" duration-ms="617" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:33Z" name="quit" finished-at="2021-02-04T12:09:34Z" duration-ms="609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:00Z" name="launchDriver" finished-at="2021-02-04T11:36:02Z" duration-ms="1084" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:34Z" name="launchDriver" finished-at="2021-02-04T12:09:35Z" duration-ms="1091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test6()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:02Z" name="Test6" finished-at="2021-02-04T11:36:04Z" duration-ms="2332" status="PASS">
+        <test-method signature="Test6()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:35Z" name="Test6" finished-at="2021-02-04T12:09:37Z" duration-ms="2279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test6 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:04Z" name="quit" finished-at="2021-02-04T11:36:04Z" duration-ms="614" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:37Z" name="quit" finished-at="2021-02-04T12:09:38Z" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:04Z" name="launchDriver" finished-at="2021-02-04T11:36:06Z" duration-ms="1099" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:38Z" name="launchDriver" finished-at="2021-02-04T12:09:39Z" duration-ms="1096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test7()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:06Z" name="Test7" finished-at="2021-02-04T11:36:18Z" duration-ms="12241" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: Automation Teaasting
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SG2EQTL', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Automation Teaasting
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SG2EQTL', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
-at com.Automation.Test.Automation1.Test1.Test7(Test1.java:95)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="Test7()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:39Z" name="Test7" finished-at="2021-02-04T12:09:41Z" duration-ms="2345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test7 -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:18Z" name="quit" finished-at="2021-02-04T11:36:18Z" duration-ms="604" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:41Z" name="quit" finished-at="2021-02-04T12:09:42Z" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:18Z" name="launchDriver" finished-at="2021-02-04T11:36:20Z" duration-ms="1090" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:42Z" name="launchDriver" finished-at="2021-02-04T12:09:43Z" duration-ms="1083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="WriteToGoogleSearch()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:20Z" name="WriteToGoogleSearch" finished-at="2021-02-04T11:36:22Z" duration-ms="2855" status="PASS">
+        <test-method signature="WriteToGoogleSearch()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:43Z" name="WriteToGoogleSearch" finished-at="2021-02-04T12:09:46Z" duration-ms="3241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WriteToGoogleSearch -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@64c63c79]" started-at="2021-02-04T11:36:22Z" name="quit" finished-at="2021-02-04T11:36:23Z" duration-ms="624" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Automation.Test.Automation1.Test1@2f62ea70]" started-at="2021-02-04T12:09:46Z" name="quit" finished-at="2021-02-04T12:09:47Z" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.Automation.Test.Automation1.Test1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

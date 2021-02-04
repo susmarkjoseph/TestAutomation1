@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="TestSuite" time="36.555" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="TestSuite" time="58.994" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12-46"/>
@@ -25,9 +25,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Mac\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf13503558824331985287.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Mac\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6061554264587828533.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\Mac\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Mac/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin/server;C:/Users/Mac/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mac\AppData\Local\Microsoft\WindowsApps;C:\Users\Mac\.dotnet\tools;C:\Users\Mac\AppData\Local\Programs\Fiddler;C:\Program Files\apache-maven-3.6.3\bin;;C:\Windows\system32;;."/>
+    <property name="java.library.path" value="C:\Users\Mac\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Mac/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin/server;C:/Users/Mac/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mac\AppData\Local\Microsoft\WindowsApps;C:\Users\Mac\.dotnet\tools;C:\Users\Mac\AppData\Local\Programs\Fiddler;C:\Program Files\apache-maven-3.6.3\bin;;C:\Windows\system32;;."/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="58.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -56,7 +56,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.Automation.Test.Automation1.TestClass1" name="Test1" time="11.697"/>
-  <testcase classname="com.Automation.Test.Automation1.TestClass1" name="Test2" time="11.348"/>
-  <testcase classname="com.Automation.Test.Automation1.TestClass1" name="Test3" time="13.51"/>
+  <testcase classname="com.Automation.Test.Automation1.TestClass1" name="Test1" time="17.062"/>
+  <testcase classname="com.Automation.Test.Automation1.TestClass1" name="Test2" time="24.127"/>
+  <testcase classname="com.Automation.Test.Automation1.TestClass1" name="Test3" time="17.805"/>
 </testsuite>
