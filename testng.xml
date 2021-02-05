@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.Automation.Test.Automation1.Test1"/>
+      <class name="com.Automation.Test.Automation1.Test2"/>
       <class name="com.Automation.Test.Automation1.TestClass1"/>
     </classes>
   </test> <!-- Test -->
